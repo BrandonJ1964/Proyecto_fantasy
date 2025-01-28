@@ -12,6 +12,17 @@
   --principal-naranja:#f68e19;
   --principal-rojo:#ef3535;
   --secundario--blanco:#ffffff;
+  --principal-azul-oscuro:#1b1f3b;
+}
+
+.custom-header {
+  background-color: var(--principal-azul-claro);
+  color: var(--secundario--blanco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid var(--principal-morado);
 }
 
 img {
@@ -22,7 +33,6 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--principal-azul-claro);
 }
 
 a:hover {
@@ -53,6 +63,16 @@ a:hover {
 }
 
 .dropdown-item:hover {
-  background-color: #dd48a1;
   color: #000000;
+}
+
+section .portada {
+  background-image: url(../images/brandon/portada.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secundario--blanco);
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

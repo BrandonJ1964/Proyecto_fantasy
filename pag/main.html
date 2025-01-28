@@ -15,37 +15,40 @@
 
 <body>
     <header>
-        <!-- Botón para mostrar el menú desplegable en móviles -->
-        <div class="d-flex align-items-center justify-content-between">
+        <!-- Contenedor con la imagen y el menú -->
+        <div class="d-flex align-items-center justify-content-between custom-header">
             <a href="#">
-                <img src="../logos/logo.png" alt="Logo" class="navbar-brand rounded-4" style="width: 50px; height: 50px;">
+                <img src="../logos/logo.png" alt="Logo" class="navbar-brand rounded-4" style="width: 130px; height: 90px;">
             </a>
 
-            <!-- Menú de navegación visible en pantallas grandes y extra grandes -->
-            <ul class="nav d-flex ms-auto">
-                <li class="nav-item"><a href="main.html" class="nav-link text-white">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white">Peliculas</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white">Series</a></li>
+            <!-- Menú de navegación visible solo en pantallas de 992px o más grandes -->
+            <ul class="nav ms-auto d-none d-lg-flex dropdown-menu-custom"> 
+                <li class="nav-item"><a href="main.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link ">Peliculas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link ">Series</a></li>
             </ul>
 
-            <!-- Menú desplegable para móviles -->
-            <div class="dropdown">
-                <button class="btn btn-dark d-md-none" data-bs-toggle="dropdown" aria-expanded="false">
+            <!-- Menú desplegable visible solo en pantallas menores a 992px -->
+            <div class="dropdown d-lg-none">
+                <button class="btn btn-dark" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-list" style="font-size: 35px;"></i>
                 </button>
 
                 <ul class="dropdown-menu dropdown-menu-custom dropdown-menu-dark">
-                    <li class="nav-item"><a href="main.html" class="nav-link text-white">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-white">Peliculas</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-white">Series</a></li>
+                    <li class="dropdown-item"><a href="main.html" class="nav-link">Home</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Peliculas</a></li>
+                    <li class="dropdown-item"><a href="#" class="nav-link">Series</a></li>
                 </ul>
             </div>
-            
         </div>
     </header>
 
     <section>
         <!-- Contenido de la sección -->
+         <div class="portada">
+           
+         </div>
+
     </section>
 
     <footer>
