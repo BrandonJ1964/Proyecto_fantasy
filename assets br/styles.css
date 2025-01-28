@@ -5,13 +5,11 @@
 }
 
 :root {
-  --principal-morado: #5736dd ;
-  --principal-azul: #2573f0;
-  --principal-blanco: #ffffff;
-  --principal-negro: #000000;
-  --secundario-naranja: #f08b25;
-  --secundario-verde: #25f042;
-  --secundario-rosa: #aa16aa;
-  --secundario-rojo: #f32b1d;
-  --relleno-enlace: 10px;
+  --principal-azul-claro: #727fd5 ;
+  --principal-morado: #684eee;
+  --principal-celeste:#26b8e8;
+  --principal-verde:#06c554;
+  --principal-naranja:#f68e19;
+  --principal-rojo:#ef3535;
+  --secundario--blanco:#ffffff;
 }/*# sourceMappingURL=styles.css.map */
