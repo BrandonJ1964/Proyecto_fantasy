@@ -28,7 +28,7 @@
 img {
   max-width: 100%;
   height: auto;
-  max-width: 500px;
+  width: 100%;
 }
 
 a {
@@ -64,15 +64,4 @@ a:hover {
 
 .dropdown-item:hover {
   color: #000000;
-}
-
-section .portada {
-  background-image: url(../images/brandon/portada.jpg);
-  background-size: cover;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--secundario--blanco);
-  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
