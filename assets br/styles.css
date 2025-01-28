@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --principal-morado: #5736dd ;
+  --principal-azul: #2573f0;
+  --principal-blanco: #ffffff;
+  --principal-negro: #000000;
+  --secundario-naranja: #f08b25;
+  --secundario-verde: #25f042;
+  --secundario-rosa: #aa16aa;
+  --secundario-rojo: #f32b1d;
+  --relleno-enlace: 10px;
+}/*# sourceMappingURL=styles.css.map */
