@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable con Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/styles.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-dark text-white">
+
+    <div class="">
+        <header>
+            <!-- Botón para mostrar el menú desplegable en móviles -->
+            <div class="d-flex align-items-center justify-content-between">
+                <a href="#">
+                    <img src="imagenes/logo.png" alt="Logo" class="navbar-brand rounded-4 " style="width: 50px; height: 50px;">
+                </a>
+                <ul class="nav d-none d-xl-flex ms-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="about" class="nav-link text-white">Nosotros</a></li>
+                    <li class="nav-item"><a href="service" class="nav-link text-white">Servicios</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link text-white">Contacto</a></li>
+                </ul>
+    
+                <!-- Menú desplegable para móviles -->
+                <div class="dropdown">
+                    <button class="btn btn-dark d-xl-none" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-list" style="font-size: 35px;"></i>
+                    </button>
+        
+                    <ul class="dropdown-menu dropdown-menu-custom dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="index.html">Home</a></li>
+                        <li><a class="dropdown-item" href="about">Nosotros</a></li>
+                        <li><a class="dropdown-item" href="service">Servicios</a></li>
+                        <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <section class="col-12 align-items-center fondo-portada">
+            <div class="arriba">
+                <!-- Reloj digital -->
+                <div class="text-center my-5">
+                    <h1 class="display-1" id="clock">00:00:00</h1>
+                    <p class="lead">Every man dies. Not every man really lives.</p>
+                </div>
+
+                <!-- Reproductor de música-->
+                <div class="text-center">
+                    <audio id="audioPlayer" src="tu-musica.mp3"></audio>
+                    <div class="custom-audio">
+                        <button id="playBtn"><i class="fas fa-play"></i></button>
+                        <button id="pauseBtn" style="display: none;"><i class="fas fa-pause"></i></button>
+                        <button id="stopBtn"><i class="fas fa-stop"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5 c2">
+            <!-- partículas -->
+            <div id="particles-js" class="position-absolute top-0 left-0 w-100 h-100"></div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-5 d-flex justify-content-center align-items-center mb-4">
+                    <img src="imagenes/audio.png" alt="Producción Musical" class="img-fluid rounded-4 shadow" style="max-width: 100%; height: auto; object-fit: cover;">
+                </div>
+                <div class="col-12 col-md-5 d-flex align-items-center mb-4 p-3 rounded-4 shadow fondoT">
+                    <div>
+                        <h2 class="h4">Producción Musical</h2>
+                        <p>Nos especializamos en crear música lofi y chill, diseñada para acompañar momentos de estudio, relajación y creatividad. Con un enfoque en sonidos suaves y ritmos calmados, trabajamos en cada detalle de la composición y producción para crear una experiencia auditiva única y auténtica.</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 d-flex justify-content-center align-items-center mb-4">
+                    <img src="imagenes/lofi.webp" alt="Diseño Gráfico" class="img-fluid rounded-4 shadow" style="max-width: 100%; height: auto; object-fit: cover;">
+                </div>
+                <div class="col-12 col-md-5 d-flex align-items-center mb-4 p-3 rounded-4 shadow fondoT">
+                    <div>
+                        <h2 class="h4">Diseño Gráfico</h2>
+                        <p>Inspirados en la estética lofi, creamos diseños visuales que combinan colores cálidos y texturas retro. Desde portadas de álbumes hasta gráficos para redes sociales, nuestro equipo se enfoca en capturar la esencia chill en cada proyecto. Cada diseño busca contar una historia que complemente nuestras melodías, conectando emocionalmente con nuestra audiencia y dejando una huella visual memorable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <div class="text-center mb-4 ">
+                <h3 class="text-white listaR">Lista de Reproducción de Música Lo-Fi</h3>
+                <div class="card-custom " style="height: 615px;">
+                    <iframe class="shadow" src="https://www.youtube.com/embed/videoseries?list=PL0ONFXpPDe_mtm3ciwL-v7EE-7yLHDlP8" allowfullscreen style="border: none; width: 100%; height: 603px;">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card-custom">
+                        <iframe class="card-img-top" src="https://www.youtube.com/embed/9_4hdP4hYxo?si=Pegj1GHTT7EkVyuQ" title="Gimai sekaitsu Lo Fi Hip Hop OST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border: none; width: 100%; height: 200px;">
+                        </iframe>
+                        <div>
+                            <h5>Gimai Sekaitsu - Lo Fi Hip Hop</h5>
+                            <p>Una melodía suave y nostálgica que evoca imágenes de días soleados y momentos de reflexión. Perfecta para estudiar o relajarse con su ritmo relajado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
+                    <div class="card-custom">
+                        <iframe class="card-img-top" src="https://www.youtube.com/embed/naj8klhfwXI?si=MkOOyQ8PCbiKG3Pq" title="A calm night - XGR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border: none; width: 100%; height: 200px;">
+                        </iframe>
+                        <div>
+                            <h5>A calm night - XGR</h5>
+                            <p>Una mezcla perfecta de ritmos suaves y melodías envolventes que te acompañan en tus sesiones de estudio. Ideal para mantener la concentración y disfrutar de un ambiente sereno.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
+                    <div class="card-custom">
+                        <iframe class="card-img-top" src="https://www.youtube.com/embed/LLdA0NWxU0Q?si=4irf5MNCNO6X_OO6" title="Pintana - Delusión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border: none; width: 100%; height: 200px;">
+                        </iframe>
+                        <div>
+                            <h5>Pintana - Delusión</h5>
+                            <p>Un viaje sonoro lleno de calma y tranquilidad, diseñado para ayudarte a desconectar. Con su delicada instrumentación, esta pieza es perfecta para momentos de meditación o descanso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Saber Más -->
+        <section class="text-center col-12 mt-3">
+            <div class="Saber_mas">
+                <div class="text-white p-1">
+                    <p>Donde la música se encuentra con la creatividad, creamos experiencias inolvidables.</p>
+                </div>
+                <div>
+                    <button class="btn btn-secondary">Saber Más</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <footer class="bg-dark text-white text-center py-4">
+            <div class="container">
+                <h5>Síguenos en nuestras redes sociales</h5>
+                <div class="social-icons mt-3">
+                    <a href="https://twitter.com" target="_blank" class="text-white mx-3">
+                        <i class="fab fa-x"></i> <!-- Icono de Twitter -->
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="text-white mx-3">
+                        <i class="fab fa-instagram"></i> <!-- Icono de Instagram -->
+                    </a>
+                    <a href="https://www.spotify.com" target="_blank" class="text-white mx-3">
+                        <i class="fab fa-spotify"></i> <!-- Icono de Spotify -->
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" class="text-white mx-3">
+                        <i class="fab fa-youtube"></i> <!-- Icono de YouTube -->
+                    </a>
+                </div>
+                <p class="mt-3">© 2024 Tu Empresa. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script para el reloj -->
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+        setInterval(updateClock, 1000);
+    </script>
+
+    <!-- Script para el reproductor -->
+    <script>
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playBtn = document.getElementById('playBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const stopBtn = document.getElementById('stopBtn');
+
+        playBtn.addEventListener('click', () => {
+            audioPlayer.play();
+            playBtn.style.display = 'none'; // Ocultar botón de play
+            pauseBtn.style.display = 'inline'; // Mostrar botón de pause
+        });
+
+        pauseBtn.addEventListener('click', () => {
+            audioPlayer.pause();
+            playBtn.style.display = 'inline'; // Mostrar botón de play
+            pauseBtn.style.display = 'none'; // Ocultar botón de pause
+        });
+
+        stopBtn.addEventListener('click', () => {
+            audioPlayer.pause();
+            audioPlayer.currentTime = 0; // Reiniciar el audio
+            playBtn.style.display = 'inline'; // Mostrar botón de play
+            pauseBtn.style.display = 'none'; // Ocultar botón de pause
+        });
+    </script>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "down",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 2
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+
+</html>
