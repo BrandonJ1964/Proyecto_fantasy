@@ -13,10 +13,13 @@
     --principal-rojo:#ef3535;
     --secundario--blanco:#ffffff;
     --principal-azul-oscuro:#1b1f3b;
+    --principal-verde-claro:#cae79f;
  
 }
 
-
+body{
+    background-color: var(--principal-verde-claro);
+}
 .custom-header{
     background-color: var(--principal-azul-claro);
     color: var(--secundario--blanco);
@@ -41,6 +44,7 @@ a:hover {
     color: var(--principal-naranja); 
 }
 
+// desplegable
 
 .dropdown-menu-custom {
     background-color: rgba(27, 31, 59, 0.95); 
@@ -66,5 +70,9 @@ a:hover {
 .dropdown-item:hover {
     color: #000000;
 }
+
+
+  
+  
 
 

@@ -13,7 +13,10 @@
   --principal-rojo:#ef3535;
   --secundario--blanco:#ffffff;
   --principal-azul-oscuro:#1b1f3b;
+  --principal-verde-claro:#cae79f;
 }
+
+
 
 .custom-header {
   background-color: var(--principal-azul-claro);
