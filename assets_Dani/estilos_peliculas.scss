@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --principal-azul-claro: #727fd5 ;
+    --principal-morado: #684eee;
+    --principal-celeste:#26b8e8;
+    --principal-verde:#06c554;
+    --principal-naranja:#f68e19;
+    --principal-rojo:#ef3535;
+    --secundario--blanco:#ffffff;
+    --principal-azul-oscuro:#1b1f3b;
+    --principal-verde-claro:#cae79f;
+ 
+}
+
+body{
+    background-color: var(--principal-verde-claro);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--secundario--blanco) !important;
+}
+
+//footer
+.custom-footer{
+    background-color: var(--principal-azul-claro);
+    padding: 20px;
+}
+
+.logo-footer, .enlaces-footer, .iconos-footer{
+    padding: 10px;
+}
+
+.iconos-footer i{
+    color: var(--secundario--blanco);
+}
