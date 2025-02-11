@@ -16,7 +16,9 @@
   --principal-verde-claro:#cae79f;
 }
 
-
+body {
+  background-color: var(--principal-verde-claro);
+}
 
 .custom-header {
   background-color: var(--principal-azul-claro);
@@ -59,12 +61,18 @@ a:hover {
     opacity: 1;
   }
 }
-.dropdown-item {
-  color: #ffffff;
-  padding: 12px 20px;
-  transition: background-color 0.3s ease;
+.peliculas-section .card {
+  transition: transform 0.4s ease;
+  border-radius: 10px;
 }
 
-.dropdown-item:hover {
-  color: #000000;
+.peliculas-section .card:hover {
+  transform: scale(1.05);
+}
+
+.peliculas-section img {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
