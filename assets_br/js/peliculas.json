@@ -1,0 +1,29 @@
+{
+    "lo_mejor_de_dbd": {
+      "peliculas_destacadas": [
+        { "titulo": "Cars", "imagen": "../../images/brandon/peliculas/family_friendly/cars.jpg" },
+        { "titulo": "Your Name", "imagen": "../../images/brandon/peliculas/anime/your_name.jpg" },
+        { "titulo": "Rápidos y Furiosos", "imagen": "../../images/brandon/peliculas/accion/rapidos.jpg" },
+        { "titulo": "Kneecap", "imagen": "../../images/brandon/peliculas/drama/kneecap.jpg" },
+        { "titulo": "It", "imagen": "../../images/brandon/peliculas/terror/it.jpg" },
+        { "titulo": "Interstellar", "imagen": "../../images/brandon/peliculas/ficcion/interstellar.jpg" }
+      ],
+      "drama": [
+        { "titulo": "Secrets", "imagen": "../../images/brandon/peliculas/drama/secrets.jpg" },
+        { "titulo": "Shetland", "imagen": "../../images/brandon/peliculas/drama/shetland.jpg" },
+        { "titulo": "Taboo", "imagen": "../../images/brandon/peliculas/drama/taboo.jpg" },
+        { "titulo": "The Listeners", "imagen": "../../images/brandon/peliculas/drama/the_listeners.jpg" },
+        { "titulo": "Castigo", "imagen": "../../images/brandon/peliculas/drama/castigo.jpg" },
+        { "titulo": "Una Perra Andaluza", "imagen": "../../images/brandon/peliculas/drama/una_perra_andaluza.jpg" }
+      ],
+      "accion": [
+        { "titulo": "Inundación", "imagen": "../../images/brandon/peliculas/accion/inundacion.jpg" },
+        { "titulo": "Comando G", "imagen": "../../images/brandon/peliculas/accion/comando_g.jpg" },
+        { "titulo": "Hielo", "imagen": "../../images/brandon/peliculas/accion/hielo.jpg" },
+        { "titulo": "Borderland", "imagen": "../../images/brandon/peliculas/accion/borderland.jpg" },
+        { "titulo": "La Carrera de la Muerte", "imagen": "../../images/brandon/peliculas/accion/carrera_muerte.jpg" },
+        { "titulo": "Berlín", "imagen": "../../images/brandon/peliculas/accion/berlin.jpg" }
+      ]
+    }
+  }
+  

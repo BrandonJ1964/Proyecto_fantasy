@@ -1,29 +1,31 @@
-// JSON con las películas y sus imágenes
-const dbdData = {
-    "Películas_Destacadas": {
-        "peliculas": [
-            { "titulo": "Cars", "imagen": "../../images/brandon/peliculas/family_friendly/cars.jpg" },
-            { "titulo": "Your Name", "imagen": "../../images/brandon/peliculas/anime/your_name.jpg" },
-            { "titulo": "Rápidos y Furiosos", "imagen": "../../images/brandon/peliculas/accion/rapidos.jpg" },
-            { "titulo": "Kneecap", "imagen": "../../images/brandon/peliculas/drama/kneecap.jpg" },
-            { "titulo": "It", "imagen": "../../images/brandon/peliculas/terror/it.jpg" },
-            { "titulo": "Interstellar", "imagen": "../../images/brandon/peliculas/ficcion/interstellar.jpg" },
-            { "titulo": "Joker", "imagen": "../../images/brandon/peliculas/drama/joker.jpg" },
-            { "titulo": "Avengers: Endgame", "imagen": "../../images/brandon/peliculas/accion/endgame.jpg" }
-        ]
+// Función para cargar JSON desde un archivo externo
+async function cargarJSON() {
+    try {
+        const response = await fetch("/assets_br/js/peliculas.json");
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Error cargando el JSON:", error);
     }
-};
+}
 
-// Función para cargar películas en el carrusel con 4 películas por diapositiva
-function cargarPeliculas() {
-    const carouselContent = document.getElementById("carousel-content");
+// Función para generar el carrusel dinámico de una categoría
+async function cargarPeliculas(categoria, carouselId) {
+    const carouselContent = document.getElementById(carouselId);
 
     if (!carouselContent) {
-        console.error("No se encontró el contenedor del carrusel.");
+        console.error(`No se encontró el contenedor del carrusel: ${carouselId}`);
         return;
     }
 
-    let peliculas = dbdData.Películas_Destacadas.peliculas;
+    const dbdData = await cargarJSON();
+    let peliculas = dbdData.lo_mejor_de_dbd[categoria];
+
+    if (!peliculas) {
+        console.error(`Categoría ${categoria} no encontrada en el JSON`);
+        return;
+    }
+
     let totalPeliculas = peliculas.length;
     let peliculasPorSlide = 4;
     let totalSlides = Math.ceil(totalPeliculas / peliculasPorSlide);
@@ -51,5 +53,9 @@ function cargarPeliculas() {
     }
 }
 
-// Cargar películas cuando la página termine de cargar
-document.addEventListener("DOMContentLoaded", cargarPeliculas);
+// Cargar diferentes categorías en sus respectivos carruseles
+document.addEventListener("DOMContentLoaded", async () => {
+    await cargarPeliculas("peliculas_destacadas", "peliculas-carousel-content");
+    await cargarPeliculas("drama", "drama-carousel-content");
+    await cargarPeliculas("accion", "accion-carousel-content");
+});
