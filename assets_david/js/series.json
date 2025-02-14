@@ -1,0 +1,85 @@
+{
+    "series": {
+      "mas_vistas": [
+        { "titulo": "Shetland", "imagen": "../../images/brandon/series/shetland.webp" },
+        { "titulo": "Todas las criaturas", "imagen": "../../images/brandon/series/todas_las_criaturas.webp" },
+        { "titulo": "Luz de luna", "imagen": "../../images/brandon/series/luz_de_luna.webp" },
+        { "titulo": "Herrhausen", "imagen": "../../images/brandon/series/herrhausen.webp" },
+        { "titulo": "Sherwood", "imagen": "../../images/brandon/series/sherwood.webp" },
+        { "titulo": "Taboo", "imagen": "../../images/brandon/series/taboo.webp" },
+        { "titulo": "The Listeners", "imagen": "../../images/brandon/series/the_listeners.webp" },
+        { "titulo": "Ramy", "imagen": "../../images/brandon/series/ramy.webp" }
+      ],
+      "novedades": [
+        { "titulo": "Enológica", "imagen": "../../images/brandon/series/enologica.webp" },
+        { "titulo": "A moza que abortou e o contou", "imagen": "../../images/brandon/series/moza.webp" },
+        { "titulo": "True Love", "imagen": "../../images/brandon/series/true_love.webp" },
+        { "titulo": "Matriz", "imagen": "../../images/brandon/series/matriz.webp" },
+        { "titulo": "El ladrón, su esposa y la canoa", "imagen": "../../images/brandon/series/canoa.webp" },
+        { "titulo": "ReCancelled", "imagen": "../../images/brandon/series/recancelled.webp" },
+        { "titulo": "Laif", "imagen": "../../images/brandon/series/laif.webp" },
+        { "titulo": "Pep", "imagen": "../../images/brandon/series/pep.webp" }
+      ],
+      "hollywood": [
+        { "titulo": "Hollywood Scandals", "imagen": "../../images/brandon/series/scandals.jpg" },
+        { "titulo": "Grantchester", "imagen": "../../images/brandon/series/grantchester.webp" },
+        { "titulo": "Archie", "imagen": "../../images/brandon/series/archie.webp" },
+        { "titulo": "Los crimenes de Port Talbot", "imagen": "../../images/brandon/series/port_talbot.webp" },
+        { "titulo": "Shetland", "imagen": "../../images/brandon/series/shetland.webp" },
+        { "titulo": "Endeavour", "imagen": "../../images/brandon/series/endeavour.webp" },
+        { "titulo": "True Love", "imagen": "../../images/brandon/series/true_love.webp" },
+        { "titulo": "Todas las criaturas", "imagen": "../../images/brandon/series/todas_las_criaturas.webp" }
+      ],
+      "accion": [
+        { "titulo": "Desvelando Arafat", "imagen": "../../images/brandon/series/desvelando_arafat.webp" },
+        { "titulo": "Comando G", "imagen": "../../images/brandon/series/comando_g.webp" },
+        { "titulo": "Inundación", "imagen": "../../images/brandon/series/inundacion.webp" },
+        { "titulo": "Borderland", "imagen": "../../images/brandon/series/borderland.webp" },
+        { "titulo": "Hielo", "imagen": "../../images/brandon/series/hielo.webp" },
+        { "titulo": "Inspector Tschiller", "imagen": "../../images/brandon/series/inspector.webp" },
+        { "titulo": "El pirata Barbanegra", "imagen": "../../images/brandon/series/barbanegra.webp" },
+        { "titulo": "La amenaza de Casandra", "imagen": "../../images/brandon/series/casandra.webp" }
+      ],
+      "familia": [
+        { "titulo": "David el Gnomo", "imagen": "../../images/brandon/series/david_gnomo.webp" },
+        { "titulo": "El Quijote", "imagen": "../../images/brandon/series/quijote.webp" },
+        { "titulo": "Oveja Shaun", "imagen": "../../images/brandon/series/oveja_shaun.webp" },
+        { "titulo": "Very small creatures", "imagen": "../../images/brandon/series/very_small_creatures.webp" },
+        { "titulo": "Érase una vez", "imagen": "../../images/brandon/series/erase_una_vez.webp" },
+        { "titulo": "Pippi calzaslargas", "imagen": "../../images/brandon/series/pippi.webp" },
+        { "titulo": "Heidi", "imagen": "../../images/brandon/series/heidi.webp" },
+        { "titulo": "Juan Pilila", "imagen": "../../images/brandon/series/juan.webp" }
+      ],
+      "clasicas": [
+        { "titulo": "Doctor en Alaska", "imagen": "../../images/brandon/series/doctor_en_alaska.webp" },
+        { "titulo": "Luz de luna", "imagen": "../../images/brandon/series/luz_de_luna.webp" },
+        { "titulo": "Casanova (1971)", "imagen": "../../images/brandon/series/casanova.webp" },
+        { "titulo": "Charles Chaplin", "imagen": "../../images/brandon/series/chaplin.webp" },
+        { "titulo": "Cimarrón", "imagen": "../../images/brandon/series/cimarron.webp" },
+        { "titulo": "Érase una vez", "imagen": "../../images/brandon/series/erase_una_vez.webp" },
+        { "titulo": "Heidi", "imagen": "../../images/brandon/series/heidi.webp" },
+        { "titulo": "El Topo", "imagen": "../../images/brandon/series/topo.webp" }
+      ],
+      "comedia": [
+        { "titulo": "Soñando en negro", "imagen": "../../images/brandon/series/soñando_en_negro.webp" },
+        { "titulo": "Brassic", "imagen": "../../images/brandon/series/brassic.webp" },
+        { "titulo": "Pippi calzaslargas", "imagen": "../../images/brandon/series/pippi.webp" },
+        { "titulo": "Ramy", "imagen": "../../images/brandon/series/ramy.webp" },
+        { "titulo": "El ladrón, su esposa y la canoa", "imagen": "../../images/brandon/series/canoa.webp" },
+        { "titulo": "Charles Chaplin", "imagen": "../../images/brandon/series/chaplin.webp" },
+        { "titulo": "Porca miserià", "imagen": "../../images/brandon/series/porca.webp" },
+        { "titulo": "Laif", "imagen": "../../images/brandon/series/laif.webp" }
+      ],
+      "hechos_reales": [
+        { "titulo": "Inundación", "imagen": "../../images/brandon/series/shetland.webp" },
+        { "titulo": "Año del descubrimiento", "imagen": "../../images/brandon/series/año_descubrimiento.webp" },
+        { "titulo": "Archie", "imagen": "../../images/brandon/series/archie.webp" },
+        { "titulo": "Enológica", "imagen": "../../images/brandon/series/enologica.webp" },
+        { "titulo": "Shetland", "imagen": "../../images/brandon/series/shetland.webp" },
+        { "titulo": "El Topo", "imagen": "../../images/brandon/series/topo.webp" },
+        { "titulo": "True Love", "imagen": "../../images/brandon/series/true_love.webp" },
+        { "titulo": "El Quijote", "imagen": "../../images/brandon/series/quijote.webp" }
+      ]
+    }
+  }
+  
