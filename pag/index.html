@@ -24,7 +24,7 @@
 
       <!-- Menú de navegación visible solo en pantallas de 992px o más grandes -->
       <ul class="nav ms-auto d-none d-lg-flex dropdown-menu-custom">
-        <li class="nav-item"><a href="main.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link ">Peliculas</a></li>
         <li class="nav-item"><a href="#" class="nav-link ">Series</a></li>
       </ul>
@@ -36,7 +36,7 @@
         </button>
 
         <ul class="dropdown-menu dropdown-menu-custom dropdown-menu-dark">
-          <li class="dropdown-item"><a href="main.html" class="nav-link">Home</a></li>
+          <li class="dropdown-item"><a href="index.html" class="nav-link">Home</a></li>
           <li class="dropdown-item"><a href="#" class="nav-link">Peliculas</a></li>
           <li class="dropdown-item"><a href="#" class="nav-link">Series</a></li>
         </ul>
@@ -81,16 +81,24 @@
   <!-- Carrusel de Películas Destacadas -->
   <section class="peliculas-section container mt-5">
     <h2 class="text-center mb-4">Películas Destacadas</h2>
+
     <div id="peliculasCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" id="peliculas-carousel-content"></div>
+      <div class="carousel-inner" id="peliculas-carousel-content">
+        <!-- Aquí se llenará dinámicamente el contenido con JavaScript -->
+      </div>
+
+      <!-- Controles del carrusel -->
       <button class="carousel-control-prev" type="button" data-bs-target="#peliculasCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#peliculasCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
   </section>
+
 
   <!-- Carrusel de Drama -->
   <section class="peliculas-section container mt-5">
@@ -119,6 +127,48 @@
       </button>
     </div>
   </section>
+
+  <!-- Carrusel de Anime -->
+
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Anime</h2>
+    <div id="animeCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="anime-carousel-content"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#animeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#animeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Mejores series -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Mejores series</h2>
+    <div id="seriesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="series-carousel-content"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#seriesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#seriesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- la serie de la semana -->
+  <section class="serie-semana">
+    <h2>La serie de la semana</h2>
+    <div class="portadaSerie">
+      <video id="serieVideo" src="../images/brandon/series/serie_semana/snk_p.mp4" autoplay muted loop></video>
+      <h3 class="titulo-serie">Shingeki no Kyojin</h3>
+    </div>
+</section>
+
+
+
+
 
 
 

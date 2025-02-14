@@ -58,4 +58,23 @@ document.addEventListener("DOMContentLoaded", async () => {
     await cargarPeliculas("peliculas_destacadas", "peliculas-carousel-content");
     await cargarPeliculas("drama", "drama-carousel-content");
     await cargarPeliculas("accion", "accion-carousel-content");
+    await cargarPeliculas("anime", "anime-carousel-content");
+    await cargarPeliculas("series", "series-carousel-content");
+
+    
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const video = document.getElementById("serieVideo");
+
+    video.addEventListener("loadedmetadata", () => {
+        video.currentTime = 90; // Empieza en el minuto 1:20
+    });
+
+    video.addEventListener("timeupdate", () => {
+        if (video.currentTime >= 100) { // 1:40 minutos
+            video.currentTime = 90; // Vuelve a 1:20
+        }
+    });
+});
+
