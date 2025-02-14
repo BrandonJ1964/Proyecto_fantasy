@@ -6,23 +6,54 @@
         { "titulo": "Rápidos y Furiosos", "imagen": "../../images/brandon/peliculas/accion/rapidos.jpg" },
         { "titulo": "Kneecap", "imagen": "../../images/brandon/peliculas/drama/kneecap.jpg" },
         { "titulo": "It", "imagen": "../../images/brandon/peliculas/terror/it.jpg" },
-        { "titulo": "Interstellar", "imagen": "../../images/brandon/peliculas/ficcion/interstellar.jpg" }
+        { "titulo": "Interstellar", "imagen": "../../images/brandon/peliculas/ficcion/interstellar.jpg" },
+        { "titulo": "The Shawshank", "imagen": "../../images/brandon/peliculas/drama/shawshank_redemption.jpg" },
+        { "titulo": "La Casa de Papel", "imagen": "../../images/brandon/peliculas/drama/casa_papel.jpg" }
       ],
       "drama": [
-        { "titulo": "Secrets", "imagen": "../../images/brandon/peliculas/drama/secrets.jpg" },
+        { "titulo": "Siete Almas", "imagen": "../../images/brandon/peliculas/drama/siete_almas.jpg" },
         { "titulo": "Shetland", "imagen": "../../images/brandon/peliculas/drama/shetland.jpg" },
-        { "titulo": "Taboo", "imagen": "../../images/brandon/peliculas/drama/taboo.jpg" },
-        { "titulo": "The Listeners", "imagen": "../../images/brandon/peliculas/drama/the_listeners.jpg" },
-        { "titulo": "Castigo", "imagen": "../../images/brandon/peliculas/drama/castigo.jpg" },
-        { "titulo": "Una Perra Andaluza", "imagen": "../../images/brandon/peliculas/drama/una_perra_andaluza.jpg" }
+        { "titulo": "El pianista", "imagen": "../../images/brandon/peliculas/drama/el_pianista.jpg" },
+        { "titulo": "The moon", "imagen": "../../images/brandon/peliculas/drama/the_moon.jpg" },
+        { "titulo": "Intriga", "imagen": "../../images/brandon/peliculas/drama/intriga.jpg" },
+        { "titulo": "El prodigio", "imagen": "../../images/brandon/peliculas/drama/el_prodigio.jpg" },
+        { "titulo": "El pacto", "imagen": "../../images/brandon/peliculas/drama/el_pacto.jpg" },
+        { "titulo": "Perfect Blue", "imagen": "../../images/brandon/peliculas/drama/perfect_blue.jpg" }
       ],
       "accion": [
-        { "titulo": "Inundación", "imagen": "../../images/brandon/peliculas/accion/inundacion.jpg" },
-        { "titulo": "Comando G", "imagen": "../../images/brandon/peliculas/accion/comando_g.jpg" },
-        { "titulo": "Hielo", "imagen": "../../images/brandon/peliculas/accion/hielo.jpg" },
+        { "titulo": "End Game", "imagen": "../../images/brandon/peliculas/accion/endgame.jpg" },
+        { "titulo": "Rapidos y Furiosos", "imagen": "../../images/brandon/peliculas/accion/rapidos.jpg" },
+        { "titulo": "Lucy", "imagen": "../../images/brandon/peliculas/accion/lucy.jpg" },
         { "titulo": "Borderland", "imagen": "../../images/brandon/peliculas/accion/borderland.jpg" },
-        { "titulo": "La Carrera de la Muerte", "imagen": "../../images/brandon/peliculas/accion/carrera_muerte.jpg" },
-        { "titulo": "Berlín", "imagen": "../../images/brandon/peliculas/accion/berlin.jpg" }
+        { "titulo": "Death Race", "imagen": "../../images/brandon/peliculas/accion/deathrace.jpg" },
+        { "titulo": "Berlín", "imagen": "../../images/brandon/peliculas/accion/berlin.jpg" },
+        { "titulo": "Agent Salt", "imagen": "../../images/brandon/peliculas/accion/salt.jpg" },
+        { "titulo": "Riesgo bajo cero", "imagen": "../../images/brandon/peliculas/accion/riesgocero.jpg" }
+      ],
+      "anime": [
+        { "titulo": "Sword Art Online", "imagen": "../../images/brandon/peliculas/anime/sao.jpg" },
+        { "titulo": "Dragon Ball Super", "imagen": "../../images/brandon/peliculas/anime/dragonball.jpg" },
+        { "titulo": "Shingeki no Kyojin", "imagen": "../../images/brandon/peliculas/anime/snk.jpg" },
+        { "titulo": "Boku no Hero Academia", "imagen": "../../images/brandon/peliculas/anime/bnh.jpg" },
+        { "titulo": "Dan Da Dan", "imagen": "../../images/brandon/peliculas/anime/dandadan.jpg" },
+        { "titulo": "Solo Leveling", "imagen": "../../images/brandon/peliculas/anime/sololeveling.jpg" },
+        { "titulo": "Jujutsu kaisen ", "imagen": "../../images/brandon/peliculas/anime/jjk.jpg" },
+        { "titulo": "Re:Zero", "imagen": "../../images/brandon/peliculas/anime/rezero.jpg" }
+        
+       
+      ],
+      "series": [
+        { "titulo": "Querer", "imagen": "../../images/brandon/Series/portadas/querer.jpg" } ,
+        { "titulo": "Años en Soledad", "imagen": "../../images/brandon/Series/portadas/soledad.jpg" } ,
+        { "titulo": "Dan Da Dan", "imagen": "../../images/brandon/peliculas/anime/dandadan.jpg" },
+        { "titulo": "Los Años Nuevos", "imagen": "../../images/brandon/Series/portadas/nuevos.jpg" } ,
+        { "titulo": "Samuel", "imagen": "../../images/brandon/Series/portadas/samuel.jpg" } ,
+        { "titulo": "Shogun", "imagen": "../../images/brandon/Series/portadas/shogun.jpg" } ,
+        { "titulo": "Kimetsu No Yaiba", "imagen": "../../images/brandon/Series/portadas/kny.jpg" } ,
+        { "titulo": "The Good Doctor", "imagen": "../../images/brandon/Series/portadas/gooddoctor.jpg" }
+       
+        
+       
       ]
     }
   }

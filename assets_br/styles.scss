@@ -78,6 +78,47 @@ a:hover {
     border-radius: 10px;
 }
 
+.serie-semana {
+    text-align: center;
+
+    .portadaSerie {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        margin: auto;
+        overflow: hidden;
+
+        video {
+            width: 100%;
+            display: block;
+        }
+
+        // Sombra en la parte inferior del video
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70%; // tamaño de la soma
+            background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, transparent 100%);
+            pointer-events: none;
+        }
+        .titulo-serie {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);        
+            color: white;
+            padding: 10px 20px;
+            z-index: 1;
+            
+            
+        }
+    }
+}
+
+
 
 
   
