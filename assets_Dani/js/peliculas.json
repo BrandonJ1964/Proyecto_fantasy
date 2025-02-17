@@ -1,0 +1,85 @@
+{
+    "peliculas": {
+      "mas_vistas": [
+        { "titulo": "Gladiator", "imagen": "../images/dani/fotosPeliculas/gladiator.webp" },
+        { "titulo": "Vaca", "imagen": "../images/dani/fotosPeliculas/vaca.webp" },
+        { "titulo": "Orgullo y prejuicio", "imagen": "../images/dani/fotosPeliculas/orgullo_y_prejuicio.webp" },
+        { "titulo": "La red social", "imagen": "../images/dani/fotosPeliculas/la_red_social.webp" },
+        { "titulo": "Jumanji", "imagen": "../images/dani/fotosPeliculas/jumanji.webp" },
+        { "titulo": "Zodiac", "imagen": "../images/dani/fotosPeliculas/zodiac.webp" },
+        { "titulo": "Eduardo manostijeras", "imagen": "../images/dani/fotosPeliculas/eduardo_manostijeras.webp" },
+        { "titulo": "El planeta de los simios", "imagen": "../images/dani/fotosPeliculas/el_planeta_de_los_simios.webp" }
+      ],
+      "novedades": [
+        { "titulo": "Winnie the pooh, miel y sangre", "imagen": "../images/dani/fotosPeliculas/winnie_the_pooh.webp" },
+        { "titulo": "El Maestro del Sigilo", "imagen": "../images/dani/fotosPeliculas/no_encotrado.png" },
+        { "titulo": "They have scaped", "imagen": "../images/dani/fotosPeliculas/they_have_scaped.webp" },
+        { "titulo": "El asesinato de un periodista", "imagen": "../images/dani/fotosPeliculas/el_asesinato_de_un_periodista.webp" },
+        { "titulo": "La momia", "imagen": "../images/dani/fotosPeliculas/la_momia.webp" },
+        { "titulo": "Shreck", "imagen": "../images/dani/fotosPeliculas/shreck.webp" },
+        { "titulo": "Peso Gallo", "imagen": "../images/dani/fotosPeliculas/peso_gallo.webp" },
+        { "titulo": "The Fearway", "imagen": "../images/dani/fotosPeliculas/the_fearway.webp" }
+      ],
+      "hollywood": [
+        { "titulo": "Jurasicc Park", "imagen": "../images/dani/fotosPeliculas/jurassic_park.webp" },
+        { "titulo": "Gozilla", "imagen": "../images/dani/fotosPeliculas/gozilla.webp" },
+        { "titulo": "Seven", "imagen": "../images/dani/fotosPeliculas/seven.webp" },
+        { "titulo": "Once upon a time", "imagen": "../images/dani/fotosPeliculas/once_upon_a_time.webp" },
+        { "titulo": "Yannick", "imagen": "../images/dani/fotosPeliculas/yannick.webp" },
+        { "titulo": "El filosofo del mar", "imagen": "../images/dani/fotosPeliculas/el_filosofo_del_mar.webp" },
+        { "titulo": "Última noche en Milan", "imagen": "../images/dani/fotosPeliculas/ultima_noche_en_milan.webp" },
+        { "titulo": "Mad City", "imagen": "../images/dani/fotosPeliculas/mad_city.webp" }
+      ],
+      "accion": [
+        { "titulo": "La espera", "imagen": "../images/dani/fotosPeliculas/la_espera.webp" },
+        { "titulo": "WindTalkers", "imagen": "../images/dani/fotosPeliculas/windtalkers.webp" },
+        { "titulo": "Héroes del aire", "imagen": "../images/dani/fotosPeliculas/flyboys_heroes_del_aire.webp" },
+        { "titulo": "El dia más largo", "imagen": "../images/dani/fotosPeliculas/el_dia_mas_largo.webp" },
+        { "titulo": "El este", "imagen": "../images/dani/fotosPeliculas/el_este.webp" },
+        { "titulo": "Vida salvaje", "imagen": "../images/dani/fotosPeliculas/vida_salvaje.webp" },
+        { "titulo": "Atrapad a sombra", "imagen": "../images/dani/fotosPeliculas/atrapad_a_sombra.webp" },
+        { "titulo": "Rendel", "imagen": "../images/dani/fotosPeliculas/rendel.webp" }
+      ],
+      "familia": [
+        { "titulo": "Tortugas Ninja 2", "imagen": "../images/dani/fotosPeliculas/tortugas_ninja_2.webp" },
+        { "titulo": "El osito boom", "imagen": "../images/dani/fotosPeliculas/el_osito_boom.webp" },
+        { "titulo": "Yuku", "imagen": "../images/dani/fotosPeliculas/yuku.webp" },
+        { "titulo": "Vainilla", "imagen": "../images/dani/fotosPeliculas/vainilla.webp" },
+        { "titulo": "El gato Tabby", "imagen": "../images/dani/fotosPeliculas/el_gato_tabby.webp" },
+        { "titulo": "Orlando", "imagen": "../images/dani/fotosPeliculas/orlando.webp" },
+        { "titulo": "En busca del valle encantado", "imagen": "../images/dani/fotosPeliculas/en_busca_del_valle_encantado.webp" },
+        { "titulo": "Nina y el secreto del erizo", "imagen": "../images/dani/fotosPeliculas/nina_y_el_secreto_del_erizo.webp" }
+      ],
+      "clasicas": [
+        { "titulo": "Conan el bárbaro", "imagen": "../images/dani/fotosPeliculas/conan_el_barbaro.webp" },
+        { "titulo": "La casa en la sombra", "imagen": "../images/dani/fotosPeliculas/la_casa_en_la_sombra.webp" },
+        { "titulo": "Un mayordomo aristócrata", "imagen": "../images/dani/fotosPeliculas/un_mayordomo_aristocrata.webp" },
+        { "titulo": "Los tres dragones", "imagen": "../images/dani/fotosPeliculas/los_tres_dragones.webp" },
+        { "titulo": "Lo que el viento se llevo", "imagen": "../images/dani/fotosPeliculas/lo_que_el_viento_se_llevo.webp" },
+        { "titulo": "Centauros del desierto", "imagen": "../images/dani/fotosPeliculas/centauros_del_desierto.webp" },
+        { "titulo": "Starship troopers", "imagen": "../images/dani/fotosPeliculas/starship_troopers.webp" },
+        { "titulo": "El legado", "imagen": "../images/dani/fotosPeliculas/el_legado.webp" }
+      ],
+      "comedia": [
+        { "titulo": "Patagonia", "imagen": "../images/dani/fotosPeliculas/patagonia.webp" },
+        { "titulo": "Expediente netanyahu", "imagen": "../images/dani/fotosPeliculas/expediente_netanyahu.webp" },
+        { "titulo": "El filosofo del mar", "imagen": "../images/dani/fotosPeliculas/el_filosofo_del_mar.webp" },
+        { "titulo": "Fuego de juventud", "imagen": "../images/dani/fotosPeliculas/fuego_de_juventud.webp" },
+        { "titulo": "La vida me mata", "imagen": "../images/dani/fotosPeliculas/la_vida_me_mata.webp" },
+        { "titulo": "Kneecap", "imagen": "../images/dani/fotosPeliculas/kneecap.webp" },
+        { "titulo": "Gremlins", "imagen": "../images/dani/fotosPeliculas/gremlins.webp" },
+        { "titulo": "El gran menú", "imagen": "../images/dani/fotosPeliculas/el_gran_menu.webp" }
+      ],
+      "hechos_reales": [
+        { "titulo": "El submarino", "imagen": "../images/dani/fotosPeliculas/el_submarino.webp" },
+        { "titulo": "Vaca", "imagen": "../images/dani/fotosPeliculas/vaca.webp" },
+        { "titulo": "Searching for nika", "imagen": "../images/dani/fotosPeliculas/searching_for_nika.webp" },
+        { "titulo": "Emily", "imagen": "../images/dani/fotosPeliculas/emily.webp" },
+        { "titulo": "Amar", "imagen": "../images/dani/fotosPeliculas/amar.webp" },
+        { "titulo": "El francotirador del Donbass", "imagen": "../images/dani/fotosPeliculas/el_francotirador_del_donbass.webp" },
+        { "titulo": "Eden", "imagen": "../images/dani/fotosPeliculas/eden.webp" },
+        { "titulo": "Siggi, el niño espía del FBI", "imagen": "../images/dani/fotosPeliculas/siggi.webp" }
+      ]
+    }
+  }
+  
