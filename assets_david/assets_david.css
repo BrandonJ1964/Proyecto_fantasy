@@ -1,6 +1,23 @@
 @charset "UTF-8";
 .form-select {
-  max-width: 300px; /* Ajusta el ancho según necesites */
-  font-size: 14px; /* Reduce el tamaño del texto */
-  padding: 0.25rem 0.5rem; /* Ajusta el padding para hacerlo más compacto */
+  max-width: 300px;
+  /*Ajusta el ancho según necesites*/
+  font-size: 14px;
+  /*Reduce el tamaño del texto*/
+  padding: 0.25rem 0.5rem;
+  /*Ajusta el padding para hacerlo más compacto*/
+}
+
+.carousel-control-prev {
+  left: -120px !important;
+  /*Mueve la flecha izquierda más a la izquierda*/
+}
+
+.carousel-control-next {
+  right: -120px !important;
+  /*Mueve la flecha derecha más a la derecha*/
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%); /*Convierte las flechas a blanco*/
 }/*# sourceMappingURL=assets_david.css.map */
