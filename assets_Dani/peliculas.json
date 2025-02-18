@@ -1,0 +1,84 @@
+{
+  "peliculas": {
+    "mas_vistas": [
+      { "titulo": "Gladiator", "imagen": "../../images/brandon/peliculas/gladiator.webp" },
+      { "titulo": "Vaca", "imagen": "../../images/brandon/peliculas/vaca.webp" },
+      { "titulo": "Orgullo y prejuicio", "imagen": "../../images/brandon/peliculas/orgullo_y_prejuicio.webp" },
+      { "titulo": "La red social", "imagen": "../../images/brandon/peliculas/la_red_social.webp" },
+      { "titulo": "Jumanji", "imagen": "../../images/brandon/peliculas/jumanji.webp" },
+      { "titulo": "Zodiac", "imagen": "../../images/brandon/peliculas/zodiac.webp" },
+      { "titulo": "Eduardo manostijeras", "imagen": "../../images/brandon/peliculas/eduardo_manostijeras.webp" },
+      { "titulo": "El planeta de los simios", "imagen": "../../images/brandon/peliculas/el_planeta_de_los_simios.webp" }
+    ],
+    "novedades": [
+      { "titulo": "Winnie the pooh, miel y sangre", "imagen": "../../images/brandon/peliculas/winnie_the_pooh.webp" },
+      { "titulo": "El Maestro del Sigilo", "imagen": "../../images/brandon/peliculas/no_encotrado.png" },
+      { "titulo": "They have scaped", "imagen": "../../images/brandon/peliculas/they_have_scaped.webp" },
+      { "titulo": "El asesinato de un periodista", "imagen": "../../images/brandon/peliculas/el_asesinato_de_un_periodista.webp" },
+      { "titulo": "La momia", "imagen": "../../images/brandon/peliculas/la_momia.webp" },
+      { "titulo": "Shreck", "imagen": "../../images/brandon/peliculas/shreck.webp" },
+      { "titulo": "Peso Gallo", "imagen": "../../images/brandon/peliculas/peso_gallo.webp" },
+      { "titulo": "The Fearway", "imagen": "../../images/brandon/peliculas/the_fearway.webp" }
+    ],
+    "hollywood": [
+      { "titulo": "Jurasicc Park", "imagen": "../../images/brandon/peliculas/jurassic_park.webp" },
+      { "titulo": "Gozilla", "imagen": "../../images/brandon/peliculas/gozilla.webp" },
+      { "titulo": "Seven", "imagen": "../../images/brandon/peliculas/seven.webp" },
+      { "titulo": "Once upon a time", "imagen": "../../images/brandon/peliculas/once_upon_a_time.webp" },
+      { "titulo": "Yannick", "imagen": "../../images/brandon/peliculas/yannick.webp" },
+      { "titulo": "El filosofo del mar", "imagen": "../../images/brandon/peliculas/el_filosofo_del_mar.webp" },
+      { "titulo": "Última noche en Milan", "imagen": "../../images/brandon/peliculas/ultima_noche_en_milan.webp" },
+      { "titulo": "Mad City", "imagen": "../../images/brandon/peliculas/mad_city.webp" }
+    ],
+    "accion": [
+      { "titulo": "La espera", "imagen": "../../images/brandon/peliculas/la_espera.webp" },
+      { "titulo": "WindTalkers", "imagen": "../../images/brandon/peliculas/windtalkers.webp" },
+      { "titulo": "Héroes del aire", "imagen": "../../images/brandon/peliculas/flyboys_heroes_del_aire.webp" },
+      { "titulo": "El dia más largo", "imagen": "../../images/brandon/peliculas/el_dia_mas_largo.webp" },
+      { "titulo": "El este", "imagen": "../../images/brandon/peliculas/el_este.webp" },
+      { "titulo": "Vida salvaje", "imagen": "../../images/brandon/peliculas/vida_salvaje.webp" },
+      { "titulo": "Atrapad a sombra", "imagen": "../../images/brandon/peliculas/atrapad_a_sombra.webp" },
+      { "titulo": "Rendel", "imagen": "../../images/brandon/peliculas/rendel.webp" }
+    ],
+    "familia": [
+      { "titulo": "Tortugas Ninja 2", "imagen": "../../images/brandon/peliculas/tortugas_ninja_2.webp" },
+      { "titulo": "El osito boom", "imagen": "../../images/brandon/peliculas/el_osito_boom.webp" },
+      { "titulo": "Yuku", "imagen": "../../images/brandon/peliculas/yuku.webp" },
+      { "titulo": "Vainilla", "imagen": "../../images/brandon/peliculas/vainilla.webp" },
+      { "titulo": "El gato Tabby", "imagen": "../../images/brandon/peliculas/el_gato_tabby.webp" },
+      { "titulo": "Orlando", "imagen": "../../images/brandon/peliculas/orlando.webp" },
+      { "titulo": "En busca del valle encantado", "imagen": "../../images/brandon/peliculas/en_busca_del_valle_encantado.webp" },
+      { "titulo": "Nina y el secreto del erizo", "imagen": "../../images/brandon/peliculas/nina_y_el_secreto_del_erizo.webp" }
+    ],
+    "clasicas": [
+      { "titulo": "Conan el bárbaro", "imagen": "../../images/brandon/peliculas/conan_el_barbaro.webp" },
+      { "titulo": "La casa en la sombra", "imagen": "../../images/brandon/peliculas/la_casa_en_la_sombra.webp" },
+      { "titulo": "Un mayordomo aristócrata", "imagen": "../../images/brandon/peliculas/un_mayordomo_aristocrata.webp" },
+      { "titulo": "Los tres dragones", "imagen": "../../images/brandon/peliculas/los_tres_dragones.webp" },
+      { "titulo": "Lo que el viento se llevo", "imagen": "../../images/brandon/peliculas/lo_que_el_viento_se_llevo.webp" },
+      { "titulo": "Centauros del desierto", "imagen": "../../images/brandon/peliculas/centauros_del_desierto.webp" },
+      { "titulo": "Starship troopers", "imagen": "../../images/brandon/peliculas/starship_troopers.webp" },
+      { "titulo": "El legado", "imagen": "../../images/brandon/peliculas/el_legado.webp" }
+    ],
+    "comedia": [
+      { "titulo": "Patagonia", "imagen": "../../images/brandon/peliculas/patagonia.webp" },
+      { "titulo": "Expediente netanyahu", "imagen": "../../images/brandon/peliculas/expediente_netanyahu.webp" },
+      { "titulo": "El filosofo del mar", "imagen": "../../images/brandon/peliculas/el_filosofo_del_mar.webp" },
+      { "titulo": "Fuego de juventud", "imagen": "../../images/brandon/peliculas/fuego_de_juventud.webp" },
+      { "titulo": "La vida me mata", "imagen": "../../images/brandon/peliculas/la_vida_me_mata.webp" },
+      { "titulo": "Kneecap", "imagen": "../../images/brandon/peliculas/kneecap.webp" },
+      { "titulo": "Gremlins", "imagen": "../../images/brandon/peliculas/gremlins.webp" },
+      { "titulo": "El gran menú", "imagen": "../../images/brandon/peliculas/el_gran_menu.webp" }
+    ],
+    "hechos_reales": [
+      { "titulo": "El submarino", "imagen": "../../images/brandon/peliculas/el_submarino.webp" },
+      { "titulo": "Vaca", "imagen": "../../images/brandon/peliculas/vaca.webp" },
+      { "titulo": "Searching for nika", "imagen": "../../images/brandon/peliculas/searching_for_nika.webp" },
+      { "titulo": "Emily", "imagen": "../../images/brandon/peliculas/emily.webp" },
+      { "titulo": "Amar", "imagen": "../../images/brandon/peliculas/amar.webp" },
+      { "titulo": "El francotirador del Donbass", "imagen": "../../images/brandon/peliculas/el_francotirador_del_donbass.webp" },
+      { "titulo": "Eden", "imagen": "../../images/brandon/peliculas/eden.webp" },
+      { "titulo": "Siggi, el niño espía del FBI", "imagen": "../../images/brandon/peliculas/siggi.webp" }
+    ]
+  }
+}
