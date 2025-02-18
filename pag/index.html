@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="../assets_br/styles.css">
+  <link rel="stylesheet" href="footer/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -164,21 +165,93 @@
       <video id="serieVideo" src="../images/brandon/series/serie_semana/snk_p.mp4" autoplay muted loop></video>
       <h3 class="titulo-serie">Shingeki no Kyojin</h3>
     </div>
+  </section>
+
+  <section class="acordeon">
+    <h2 class="text-center">Preguntas Frecuentes</h2>
+    <div class="accordion" id="faqAccordion">
+        <!-- Sección 1: ¿Qué es DBD? -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+                    aria-expanded="true" aria-controls="faq1">
+                    ❓ ¿Qué es DBD?
+                </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <strong>DBD</strong> es una plataforma que ofrece contenido exclusivo de películas y series. Brindamos acceso
+                    a una amplia biblioteca de entretenimiento para todos los gustos, desde clásicos hasta los últimos estrenos.
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección 2: ¿Cuáles son los planes disponibles? -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    💰 ¿Cuáles son los planes disponibles?
+                </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Ofrecemos diferentes planes para adaptarnos a tus necesidades:
+                    <ul>
+                        <li><strong>Plan Básico:</strong> Acceso a todo el contenido en calidad estándar.</li>
+                        <li><strong>Plan Estándar:</strong> Contenido en HD y posibilidad de ver en dos dispositivos.</li>
+                        <li><strong>Plan Premium:</strong> Contenido en 4K y hasta 4 dispositivos en simultáneo.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección 3: ¿Cómo puedo suscribirme? -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    📝 ¿Cómo puedo suscribirme?
+                </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Para suscribirte, sigue estos pasos:
+                    <ol>
+                        <li>Visita nuestro sitio web oficial.</li>
+                        <li>Selecciona el plan que más te convenga.</li>
+                        <li>Completa el registro con tus datos.</li>
+                        <li>Elige tu método de pago y confirma la suscripción.</li>
+                    </ol>
+                    ¡Listo! Ya puedes disfrutar de todo el contenido.
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección 4: ¿Puedo cancelar en cualquier momento? -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    ❌ ¿Puedo cancelar en cualquier momento?
+                </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    Sí, puedes cancelar tu suscripción en cualquier momento desde tu perfil. No hay contratos ni permanencias.
+                    Una vez cancelado, podrás seguir disfrutando del servicio hasta que termine tu período de facturación.
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-
-
-
-
-
-
-
-
-
-
 
 
   <footer>
     <!-- Contenido del pie de página -->
+    <div id="footer-container"></div>
+
+    <script src="footer/footer.js"></script>
 
   </footer>
 
