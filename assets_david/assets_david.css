@@ -9,12 +9,12 @@
 }
 
 .carousel-control-prev {
-  left: -120px !important;
+  /* left: -120px !important; */
   /*Mueve la flecha izquierda más a la izquierda*/
 }
 
 .carousel-control-next {
-  right: -120px !important;
+  /* right: -120px !important; */
   /*Mueve la flecha derecha más a la derecha*/
 }
 
