@@ -13,11 +13,11 @@
   --principal-rojo:#ef3535;
   --secundario--blanco:#ffffff;
   --principal-azul-oscuro:#1b1f3b;
-  --principal-verde-claro:#cae79f;
+  --principal-verde-claro:#c2f970;
 }
 
 body {
-  background-color: var(--principal-verde-claro);
+  background-color: var(--principal-verde-claro) !important;
 }
 
 img {
@@ -30,6 +30,27 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--principal-naranja);
+}
+
+.dropdown-menu-custom {
+  background-color: rgba(27, 31, 59, 0.95);
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .peliculas-section .card {
   transition: transform 0.4s ease;
   border-radius: 10px;
@@ -100,7 +121,6 @@ a {
   background: #222;
   color: white;
   margin-bottom: 10px;
-  border-radius: 8px;
 }
 .acordeon .accordion .accordion-item .accordion-header button {
   background: #333;
