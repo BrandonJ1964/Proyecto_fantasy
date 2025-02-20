@@ -38,7 +38,7 @@ async function cargarSeries(categoria, carouselId) {
             let serie = series[j];
             slideHTML += `
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card mt-3 mb-3">
                         <img src="${serie.imagen}" class="card-img-top" alt="${serie.titulo}">
                         <div class="card-body text-center">
                             <h5 class="card-title">${serie.titulo}</h5>
