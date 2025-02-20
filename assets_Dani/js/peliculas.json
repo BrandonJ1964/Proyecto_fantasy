@@ -3,15 +3,15 @@
     "mas_vistas": [
       { "titulo": "Gladiator", "imagen": "../../images/brandon/peliculas/gladiator.webp" },
       { "titulo": "Vaca", "imagen": "../../images/brandon/peliculas/vaca.webp" },
-      { "titulo": "Cars", "imagen": "../../images/brandon/peliculas/cars.webp" },
       { "titulo": "Orgullo y prejuicio", "imagen": "../../images/brandon/peliculas/orgullo_y_prejuicio.webp" },
       { "titulo": "La red social", "imagen": "../../images/brandon/peliculas/la_red_social.webp" },
       { "titulo": "Jumanji", "imagen": "../../images/brandon/peliculas/jumanji.webp" },
       { "titulo": "Zodiac", "imagen": "../../images/brandon/peliculas/zodiac.webp" },
-      { "titulo": "Eduardo manostijeras", "imagen": "../../images/brandon/peliculas/eduardo_manostijeras.webp" }
+      { "titulo": "Eduardo manostijeras", "imagen": "../../images/brandon/peliculas/eduardo_manostijeras.webp" },
+      { "titulo": "El planeta de los simios", "imagen": "../../images/brandon/peliculas/el_planeta_de_los_simios.webp" }
     ],
     "novedades": [
-      { "titulo": "Winnie the pooh", "imagen": "../../images/brandon/peliculas/winnie_the_pooh.webp" },
+      { "titulo": "Winnie the pooh, miel y sangre", "imagen": "../../images/brandon/peliculas/winnie_the_pooh.webp" },
       { "titulo": "El Maestro del Sigilo", "imagen": "../../images/brandon/peliculas/no_encotrado.png" },
       { "titulo": "They have scaped", "imagen": "../../images/brandon/peliculas/they_have_scaped.webp" },
       { "titulo": "El asesinato de un periodista", "imagen": "../../images/brandon/peliculas/el_asesinato_de_un_periodista.webp" },
@@ -25,7 +25,7 @@
       { "titulo": "Gozilla", "imagen": "../../images/brandon/peliculas/gozilla.webp" },
       { "titulo": "Seven", "imagen": "../../images/brandon/peliculas/seven.webp" },
       { "titulo": "Once upon a time", "imagen": "../../images/brandon/peliculas/once_upon_a_time.webp" },
-      { "titulo": "Expediente netanyahu", "imagen": "../../images/brandon/peliculas/expediente_netanyahu.webp" },
+      { "titulo": "Yannick", "imagen": "../../images/brandon/peliculas/yannick.webp" },
       { "titulo": "El filosofo del mar", "imagen": "../../images/brandon/peliculas/el_filosofo_del_mar.webp" },
       { "titulo": "Última noche en Milan", "imagen": "../../images/brandon/peliculas/ultima_noche_en_milan.webp" },
       { "titulo": "Mad City", "imagen": "../../images/brandon/peliculas/mad_city.webp" }
@@ -62,7 +62,7 @@
     ],
     "comedia": [
       { "titulo": "Patagonia", "imagen": "../../images/brandon/peliculas/patagonia.webp" },
-      { "titulo": "Yannick", "imagen": "../../images/brandon/peliculas/yannick.webp" },
+      { "titulo": "Expediente netanyahu", "imagen": "../../images/brandon/peliculas/expediente_netanyahu.webp" },
       { "titulo": "El filosofo del mar", "imagen": "../../images/brandon/peliculas/el_filosofo_del_mar.webp" },
       { "titulo": "Fuego de juventud", "imagen": "../../images/brandon/peliculas/fuego_de_juventud.webp" },
       { "titulo": "La vida me mata", "imagen": "../../images/brandon/peliculas/la_vida_me_mata.webp" },

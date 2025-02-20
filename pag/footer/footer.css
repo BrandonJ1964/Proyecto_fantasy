@@ -13,10 +13,6 @@
   color: var(--secundario--blanco);
 }
 
-.iconos-footer i:hover {
-  color: #FFD700;
-}
-
 footer a {
   color: white;
   text-decoration: none;
