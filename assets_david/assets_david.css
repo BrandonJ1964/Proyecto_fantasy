@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .form-select {
-  max-width: 300px;
+  max-width: 550px;
   /*Ajusta el ancho según necesites*/
   font-size: 14px;
   /*Reduce el tamaño del texto*/
@@ -9,12 +9,12 @@
 }
 
 .carousel-control-prev {
-  /* left: -120px !important; */
+  left: -120px !important;
   /*Mueve la flecha izquierda más a la izquierda*/
 }
 
 .carousel-control-next {
-  /* right: -120px !important; */
+  right: -120px !important;
   /*Mueve la flecha derecha más a la derecha*/
 }
 
