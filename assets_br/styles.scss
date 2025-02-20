@@ -18,7 +18,7 @@
  
 }
 body{
-    background-color: var(--principal-verde-claro) !important;    
+    background-color: var(--principal-morado) !important;  
 }
 
 img {
@@ -125,47 +125,87 @@ a:hover {
     .accordion {
         background: transparent;
         border-radius: 10px;
-        overflow: hidden;
 
         .accordion-item {
-            border: none;
-            background: #222; // Fondo oscuro para los elementos
+            background: #222;
             color: white;
             margin-bottom: 10px;
-           
+            border: none;
 
-            .accordion-header {
-                button {
-                    background: #333;
-                    color: white;
-                    font-size: 20px;
-                    font-weight: bold;
-                    padding: 15px;
-                    transition: background 0.3s ease;
+            .accordion-header button {
+                background: #333;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 15px;
+                border: none;
+                width: 100%;
+                text-align: left;
+                cursor: pointer;
 
-                    &:hover {
-                        background: #444;
-                    }
-
-                    &:focus {
-                        box-shadow: none;
-                    }
+                &:hover {
+                    background: #444;
                 }
             }
 
             .accordion-collapse {
-                background: #111; // Fondo más oscuro cuando se expande
-                border-radius: 0 0 8px 8px;
+                background: #111;
             }
 
             .accordion-body {
                 padding: 15px;
-                font-size: 1em;
                 text-align: left;
             }
         }
     }
 }
+
+
+// tarjetas
+
+.card {
+    img {
+        max-height: 380px;
+        height: 70%;
+        
+    }
+
+}
+
+.sec-x{
+    h2{
+        color: var(--principal-verde-claro);
+    }
+}
+
+
+// serie de la semana
+
+.serie-semana{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+    h2{
+        color: var(--principal-verde-claro);
+    }
+    .portadaSerie{
+        border-radius: 10px;
+        
+    }
+
+    .titulo-serie{
+        background-color: var(--principal-verde-claro);
+        border-radius: 10px;
+        color: var(--principal-azul-oscuro)!important;
+    }
+    }
+
+
+// sombra a todos los h2
+h2{
+    
+    text-shadow: 0px 3px 3px rgba(194, 249, 112, 0.4),0px -1px 1px rgba(255, 255, 255, 0.3);
+    }
 
 
 

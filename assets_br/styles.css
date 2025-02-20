@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: var(--principal-verde-claro) !important;
+  background-color: var(--principal-morado) !important;
 }
 
 img {
@@ -114,13 +114,12 @@ a:hover {
 .acordeon .accordion {
   background: transparent;
   border-radius: 10px;
-  overflow: hidden;
 }
 .acordeon .accordion .accordion-item {
-  border: none;
   background: #222;
   color: white;
   margin-bottom: 10px;
+  border: none;
 }
 .acordeon .accordion .accordion-item .accordion-header button {
   background: #333;
@@ -128,20 +127,47 @@ a:hover {
   font-size: 20px;
   font-weight: bold;
   padding: 15px;
-  transition: background 0.3s ease;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
 }
 .acordeon .accordion .accordion-item .accordion-header button:hover {
   background: #444;
 }
-.acordeon .accordion .accordion-item .accordion-header button:focus {
-  box-shadow: none;
-}
 .acordeon .accordion .accordion-item .accordion-collapse {
   background: #111;
-  border-radius: 0 0 8px 8px;
 }
 .acordeon .accordion .accordion-item .accordion-body {
   padding: 15px;
-  font-size: 1em;
   text-align: left;
+}
+
+.card img {
+  max-height: 380px;
+  height: 70%;
+}
+
+.sec-x h2 {
+  color: var(--principal-verde-claro);
+}
+
+.serie-semana {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+.serie-semana h2 {
+  color: var(--principal-verde-claro);
+}
+.serie-semana .portadaSerie {
+  border-radius: 10px;
+}
+.serie-semana .titulo-serie {
+  background-color: var(--principal-verde-claro);
+  border-radius: 10px;
+  color: var(--principal-azul-oscuro) !important;
+}
+
+h2 {
+  text-shadow: 0px 3px 3px rgba(194, 249, 112, 0.4), 0px -1px 1px rgba(255, 255, 255, 0.3);
 }/*# sourceMappingURL=styles.css.map */
