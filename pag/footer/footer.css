@@ -17,4 +17,8 @@ footer a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+
+.iconos-footer i:hover, .enlaces-footer a:hover {
+  color: #FFD700 !important;
 }/*# sourceMappingURL=footer.css.map */
