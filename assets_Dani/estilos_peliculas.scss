@@ -1,49 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --principal-azul-claro: #727fd5 ;
-    --principal-morado: #684eee;
-    --principal-celeste:#26b8e8;
-    --principal-verde:#06c554;
-    --principal-naranja:#f68e19;
-    --principal-rojo:#ef3535;
-    --secundario--blanco:#ffffff;
-    --principal-azul-oscuro:#1b1f3b;
-    --principal-verde-claro:#cae79f; 
+  --principal-azul-claro: #727fd5;
+  --principal-morado: #684eee;
+  --principal-celeste: #26b8e8;
+  --principal-verde: #06c554;
+  --principal-naranja: #f68e19;
+  --principal-rojo: #ef3535;
+  --secundario--blanco: #ffffff;
+  --principal-azul-oscuro: #1b1f3b;
+  --principal-verde-claro: #c2f970;
 }
 
-body{
-    background-color: var(--principal-verde-claro);
+body {
+  background-color: var(--principal-verde-claro);
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  color: var(--principal-verde-claro) !important;
 }
 
 .pelicula-card {
-    max-width: 300px;
-    margin: 10px auto;
-    padding: 15px;
-    border-radius: 10px;
-    background: #f8f9fa;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .pelicula-card img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .trailer-btn {
-    margin-top: 10px;
-    width: 100%;
+  margin-top: 10px;
+  width: 100%;
 }
 
 //para trailer
@@ -86,6 +90,7 @@ img {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -149,33 +154,36 @@ img {
 
 
 .card-body {
-    height: 55px;
+  height: 55px;
 }
 
 .card-title {
-    white-space: nowrap;       /*El título se muestra en una sola línea*/
-    overflow: hidden;          /*Oculta el texto que se desborde*/
-    text-overflow: ellipsis;   /*Agrega "..." al final del texto largo*/
+  white-space: nowrap;
+  /*El título se muestra en una sola línea*/
+  overflow: hidden;
+  /*Oculta el texto que se desborde*/
+  text-overflow: ellipsis;
+  /*Agrega "..." al final del texto largo*/
 }
 
 .movie-item {
-    //Evita que el elemento crezca o se encoja dentro del contenedor flex
-    flex: 0 0 auto; //Su tamaño será el del contenido o el width definido
-    width: 100%;
-    padding: 0 5px;
-    box-sizing: border-box;
+  //Evita que el elemento crezca o se encoja dentro del contenedor flex
+  flex: 0 0 auto; //Su tamaño será el del contenido o el width definido
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
 }
 
 /*Para pantallas medianas y pequeñas (md y sm): 2 items por fila*/
 @media (max-width: 991px) {
-    .movie-item {
-        width: 50%; //2 peliculas
-    }
+  .movie-item {
+    width: 50%; //2 peliculas
+  }
 }
 
 /*Para pantallas grandes (lg y xl): 4 items por fila*/
 @media (min-width: 992px) {
-    .movie-item {
-        width: 25%; //4 peliculas
-    }
+  .movie-item {
+    width: 25%; //4 peliculas
+  }
 }

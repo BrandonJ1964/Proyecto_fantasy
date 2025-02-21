@@ -6,15 +6,15 @@
 }
 
 :root {
-  --principal-azul-claro: #727fd5 ;
+  --principal-azul-claro: #727fd5;
   --principal-morado: #684eee;
-  --principal-celeste:#26b8e8;
-  --principal-verde:#06c554;
-  --principal-naranja:#f68e19;
-  --principal-rojo:#ef3535;
-  --secundario--blanco:#ffffff;
-  --principal-azul-oscuro:#1b1f3b;
-  --principal-verde-claro:#cae79f;
+  --principal-celeste: #26b8e8;
+  --principal-verde: #06c554;
+  --principal-naranja: #f68e19;
+  --principal-rojo: #ef3535;
+  --secundario--blanco: #ffffff;
+  --principal-azul-oscuro: #1b1f3b;
+  --principal-verde-claro: #c2f970;
 }
 
 body {
@@ -25,6 +25,10 @@ img {
   max-width: 100%;
   height: auto;
   width: 100%;
+}
+
+h1 {
+  color: var(--principal-verde-claro) !important;
 }
 
 .pelicula-card {
@@ -152,9 +156,12 @@ img {
 }
 
 .card-title {
-  white-space: nowrap; /*El título se muestra en una sola línea*/
-  overflow: hidden; /*Oculta el texto que se desborde*/
-  text-overflow: ellipsis; /*Agrega "..." al final del texto largo*/
+  white-space: nowrap;
+  /*El título se muestra en una sola línea*/
+  overflow: hidden;
+  /*Oculta el texto que se desborde*/
+  text-overflow: ellipsis;
+  /*Agrega "..." al final del texto largo*/
 }
 
 .movie-item {
