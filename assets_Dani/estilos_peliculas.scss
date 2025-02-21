@@ -32,16 +32,34 @@ a {
     color: var(--secundario--blanco) !important;
 }
 
-//footer
-.custom-footer{
-    background-color: var(--principal-azul-claro);
-    padding: 20px;
+.card-body {
+    height: 55px;
 }
 
-.logo-footer, .enlaces-footer, .iconos-footer{
-    padding: 10px;
+.card-title {
+    white-space: nowrap;       /*El título se muestra en una sola línea*/
+    overflow: hidden;          /*Oculta el texto que se desborde*/
+    text-overflow: ellipsis;   /*Agrega "..." al final del texto largo*/
 }
 
-.iconos-footer i{
-    color: var(--secundario--blanco);
+
+.movie-item {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+/*Para pantallas medianas y pequeñas (md y sm): 2 items por fila*/
+@media (max-width: 991px) {
+    .movie-item {
+        width: 50%; /*2 peliculas*/
+    }
+}
+
+/* Para pantallas grandes (lg y xl): 4 items por fila */
+@media (min-width: 992px) {
+    .movie-item {
+        width: 25%; /*4 peliculas*/
+    }
 }
