@@ -34,80 +34,115 @@
         <option value="">Familia</option>
       </select>
       <label for="floatingSelect">Buscar por categoría:</label>
-    </div>    
+    </div>
   </section>
-    <!-- Carrusel de mas vistas -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Más vistas</h2>
-      <div id="masVistasCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="masVistas-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de mas vistas -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Más vistas</h2>
+    <div id="masVistasCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="masVistas-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de novedades -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Novedades</h2>
-      <div id="novedadesCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="novedades-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de novedades -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Novedades</h2>
+    <div id="novedadesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="novedades-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de hollywood -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Hollywood</h2>
-      <div id="hollywoodCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="hollywood-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de hollywood -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Hollywood</h2>
+    <div id="hollywoodCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="hollywood-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de Acción -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Acción</h2>
-      <div id="accionCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="accion-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de Acción -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Acción</h2>
+    <div id="accionCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="accion-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de familia -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Familia</h2>
-      <div id="familiaCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="familia-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de familia -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Familia</h2>
+    <div id="familiaCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="familia-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de clasicas -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Clásicas</h2>
-      <div id="clasicasCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="clasicas-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de clasicas -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Clásicas</h2>
+    <div id="clasicasCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="clasicas-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de comedia -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">¿Quieres echarte unas risas?</h2>
-      <div id="comediaCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="comedia-carousel-content"></div>
-      </div>
-    </section>
+  <!-- Carrusel de comedia -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">¿Quieres echarte unas risas?</h2>
+    <div id="comediaCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="comedia-carousel-content"></div>
+    </div>
+  </section>
 
-    <!-- Carrusel de hechos reales -->
-    <section class="peliculas-section container mt-5">
-      <h2 class="text-center mb-4">Basadas en hechos reales</h2>
-      <div id="hechosRealesCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="hechosReales-carousel-content"></div>
+  <!-- Carrusel de hechos reales -->
+  <section class="peliculas-section container mt-5">
+    <h2 class="text-center mb-4">Basadas en hechos reales</h2>
+    <div id="hechosRealesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="hechosReales-carousel-content"></div>
+    </div>
+  </section>
+
+  <!-- Modal para ver el tráiler -->
+  <div class="modal fade" id="trailerModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tráiler</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body text-center">
+          <iframe id="trailer-iframe" width="100%" height="400" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
-    </section>
-    <!-- Footer -->
-    <footer class="mt-5">
-      <!-- Contenido del pie de página -->
-      <div id="footer-container"></div>
-  
-      <script src="footer/footer.js"></script>
-  
-    </footer>
-    <script src="../assets_david/js/script.js"></script>
+    </div>
+  </div>
+
+  <!-- Overlay para mostrar los detalles de la película -->
+  <div class="movie-details" id="movieDetails">
+    <span class="close-btn" id="closeDetails">&times;</span>
+    <div class="movie-content">
+      <img class="movie-image" id="detailImage" src="" alt="Imagen de la película">
+      <div class="movie-info">
+        <h2 id="detailTitle">Título de la Película</h2>
+        <p id="detailDesc">Descripción de la película...</p>
+        <p id="detailYear">Año: </p>
+        <p id="detailGenre">Género: </p>
+        <p id="detailDur">Duración: </p>
+        <button class="btn-trailer" id="btnVerTrailer">
+          Ver tráiler <i class="fa-solid fa-play"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="mt-5">
+    <!-- Contenido del pie de página -->
+    <div id="footer-container"></div>
+
+    <script src="footer/footer.js"></script>
+
+  </footer>
+  <script src="../assets_david/js/script.js"></script>
 </body>
 
 </html>
