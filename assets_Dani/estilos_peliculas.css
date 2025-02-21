@@ -27,11 +27,6 @@ img {
   width: 100%;
 }
 
-a {
-  text-decoration: none !important;
-  color: var(--secundario--blanco) !important;
-}
-
 .card-body {
   height: 55px;
 }

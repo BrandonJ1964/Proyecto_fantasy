@@ -13,8 +13,7 @@
     --principal-rojo:#ef3535;
     --secundario--blanco:#ffffff;
     --principal-azul-oscuro:#1b1f3b;
-    --principal-verde-claro:#cae79f;
- 
+    --principal-verde-claro:#cae79f; 
 }
 
 body{
@@ -27,11 +26,6 @@ img {
     width: 100%;
 }
 
-a {
-    text-decoration: none !important;
-    color: var(--secundario--blanco) !important;
-}
-
 .card-body {
     height: 55px;
 }
@@ -41,7 +35,6 @@ a {
     overflow: hidden;          /*Oculta el texto que se desborde*/
     text-overflow: ellipsis;   /*Agrega "..." al final del texto largo*/
 }
-
 
 .movie-item {
     flex: 0 0 auto;
