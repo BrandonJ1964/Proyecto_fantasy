@@ -1,4 +1,4 @@
-// Función para cargar JSON desde un archivo externo
+//Función para cargar JSON desde un archivo externo
 async function cargarJSON() {
     try {
         const response = await fetch("../assets_Dani/js/peliculas.json");
@@ -9,7 +9,17 @@ async function cargarJSON() {
     }
 }
 
-// Función para generar el carrusel dinámico de una categoría
+//Función para determinar cuántas películas mostrar por slide según el ancho de la ventana
+function getPeliculasPorSlide() {
+    const width = window.innerWidth;
+    if (width >= 992) {
+        return 4;
+    } else {
+        return 2;
+    }
+}
+
+//Función para generar el carrusel dinámico de una categoría con múltiples slides
 async function cargarPeliculas(categoria, carouselId) {
     const carouselContent = document.getElementById(carouselId);
 
@@ -26,18 +36,22 @@ async function cargarPeliculas(categoria, carouselId) {
         return;
     }
 
+    //Determinar la cantidad de películas por slide según el tamaño de pantalla
+    let peliculasPorSlide = getPeliculasPorSlide();
     let totalPeliculas = peliculas.length;
-    let peliculasPorSlide = 4;
     let totalSlides = Math.ceil(totalPeliculas / peliculasPorSlide);
 
+    //Generar cada slide
     for (let i = 0; i < totalSlides; i++) {
-        const isActive = i === 0 ? "active" : ""; // Solo el primer slide es activo
-        let slideHTML = `<div class="carousel-item ${isActive}"><div class="row justify-content-center">`;
+        const isActive = i === 0 ? "active" : "";
+        let slideHTML = `<div class="carousel-item ${isActive}">
+                        <div class="d-flex flex-nowrap">`;
 
+        //Agregar las películas correspondientes a este slide
         for (let j = i * peliculasPorSlide; j < (i * peliculasPorSlide) + peliculasPorSlide && j < totalPeliculas; j++) {
             let pelicula = peliculas[j];
             slideHTML += `
-                <div class="col-md-3">
+                <div class="movie-item">
                     <div class="card">
                         <img src="${pelicula.imagen}" class="card-img-top" alt="${pelicula.titulo}">
                         <div class="card-body text-center">
@@ -53,7 +67,7 @@ async function cargarPeliculas(categoria, carouselId) {
     }
 }
 
-// Cargar diferentes categorías en sus respectivos carruseles
+//Cargar las películas de las diferentes categorías en sus respectivos carruseles
 document.addEventListener("DOMContentLoaded", async () => {
     await cargarPeliculas("mas_vistas", "masVistas-carousel-content");
     await cargarPeliculas("novedades", "novedades-carousel-content");
