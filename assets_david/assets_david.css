@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .form-select {
-  max-width: 300px;
+  max-width: 550px;
   /*Ajusta el ancho según necesites*/
   font-size: 14px;
   /*Reduce el tamaño del texto*/
@@ -8,16 +8,32 @@
   /*Ajusta el padding para hacerlo más compacto*/
 }
 
-.carousel-control-prev {
-  /* left: -120px !important; */
-  /*Mueve la flecha izquierda más a la izquierda*/
+.card-body {
+  height: 55px;
 }
 
-.carousel-control-next {
-  /* right: -120px !important; */
-  /*Mueve la flecha derecha más a la derecha*/
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  filter: invert(100%); /*Convierte las flechas a blanco*/
+.movie-item {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+/*Para pantallas medianas y pequeñas (md y sm): 2 items por fila*/
+@media (max-width: 991px) {
+  .movie-item {
+    width: 50%;
+  }
+}
+/*Para pantallas grandes (lg y xl): 4 items por fila*/
+@media (min-width: 992px) {
+  .movie-item {
+    width: 25%;
+  }
 }/*# sourceMappingURL=assets_david.css.map */
