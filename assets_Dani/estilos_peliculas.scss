@@ -37,7 +37,8 @@ img {
 }
 
 .movie-item {
-    flex: 0 0 auto;
+    //Evita que el elemento crezca o se encoja dentro del contenedor flex
+    flex: 0 0 auto; //Su tamaño será el del contenido o el width definido
     width: 100%;
     padding: 0 5px;
     box-sizing: border-box;
@@ -46,13 +47,13 @@ img {
 /*Para pantallas medianas y pequeñas (md y sm): 2 items por fila*/
 @media (max-width: 991px) {
     .movie-item {
-        width: 50%; /*2 peliculas*/
+        width: 50%; //2 peliculas
     }
 }
 
-/* Para pantallas grandes (lg y xl): 4 items por fila */
+/*Para pantallas grandes (lg y xl): 4 items por fila*/
 @media (min-width: 992px) {
     .movie-item {
-        width: 25%; /*4 peliculas*/
+        width: 25%; //4 peliculas
     }
 }
