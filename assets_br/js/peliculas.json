@@ -8,7 +8,7 @@
         { "titulo": "It", "imagen": "../../images/brandon/peliculas/terror/it.jpg" },
         { "titulo": "Interstellar", "imagen": "../../images/brandon/peliculas/ficcion/interstellar.jpg" },
         { "titulo": "The Shawshank", "imagen": "../../images/brandon/peliculas/drama/shawshank_redemption.jpg" },
-        { "titulo": "La Casa de Papel", "imagen": "../../images/brandon/peliculas/drama/casa_papel.jpg" }
+        { "titulo": "Joker", "imagen": "../../images/brandon/peliculas/drama/joker.jpg" }
       ],
       "drama": [
         { "titulo": "Siete Almas", "imagen": "../../images/brandon/peliculas/drama/siete_almas.jpg" },

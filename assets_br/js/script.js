@@ -43,7 +43,7 @@ async function cargarPeliculas(categoria, carouselId) {
                     <div class="card">
                         <img src="${pelicula.imagen}" class="card-img-top" alt="${pelicula.titulo}">
                         <div class="card-body text-center">
-                            <h5 class="card-title">${pelicula.titulo}</h5>
+                            <h5 class="card-title titulo-pelicula">${pelicula.titulo}</h5>
                         </div>
                     </div>
                 </div>
@@ -65,17 +65,5 @@ document.addEventListener("DOMContentLoaded", async () => {
         await cargarPeliculas(categorias[i], carouselIds[i]);
     }
 
-    // Configurar video
-    const video = document.getElementById("serieVideo");
-    if (video) {
-        video.addEventListener("loadedmetadata", () => {
-            video.currentTime = 30; // Empieza en el minuto 1:20
-        });
-
-        video.addEventListener("timeupdate", () => {
-            if (video.currentTime >= 100) { // 1:40 minutos
-                video.currentTime = 90; // Vuelve a 1:20
-            }
-        });
-    }
+  
 });

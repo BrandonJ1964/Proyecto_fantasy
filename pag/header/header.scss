@@ -1,11 +1,11 @@
 .custom-header{
-    background-color: var(--principal-azul-claro);
+    background-color: #2a3270;
     color: var(--secundario--blanco);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    border-bottom: 2px solid var(--principal-morado);
+    border-bottom: 2px solid var(----secundario-blanco);
 }
 
 img {
@@ -14,18 +14,23 @@ img {
     width: 100%;
 }
 
-a:hover {
-    color: var(--principal-naranja);
-  }
-  
-  .dropdown-menu-custom {
-    background-color: rgba(27, 31, 59, 0.95);
+.dropdown-menu-custom {
+    background-color: rgba(27, 31, 59, 0.95) !important;
     width: 250px;
     border-radius: 8px;
     border: none;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5) !important;
     animation: fadeIn 0.4s ease-in-out;
   }
+
+.desplegar-btn{
+  background-color: rgba(27, 31, 59, 0.95);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: var(--principal-morado);
+  cursor: pointer;
+}
+
   
   @keyframes fadeIn {
     0% {
