@@ -31,24 +31,21 @@ h1 {
   color: var(--principal-verde-claro) !important;
 }
 
-.pelicula-card {
-  max-width: 300px;
-  margin: 10px auto;
-  padding: 15px;
-  border-radius: 10px;
-  background: #f8f9fa;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
+.card-body {
+  height: 55px;
 }
 
-.pelicula-card img {
-  width: 100%;
-  border-radius: 10px;
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.trailer-btn {
-  margin-top: 10px;
+.movie-item {
+  flex: 0 0 auto;
   width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
 }
 
 .movie-details,
@@ -149,26 +146,6 @@ h1 {
 
 .movie-info strong {
   color: #e50914;
-}
-
-.card-body {
-  height: 55px;
-}
-
-.card-title {
-  white-space: nowrap;
-  /*El título se muestra en una sola línea*/
-  overflow: hidden;
-  /*Oculta el texto que se desborde*/
-  text-overflow: ellipsis;
-  /*Agrega "..." al final del texto largo*/
-}
-
-.movie-item {
-  flex: 0 0 auto;
-  width: 100%;
-  padding: 0 5px;
-  box-sizing: border-box;
 }
 
 /*Para pantallas medianas y pequeñas (md y sm): 2 items por fila*/
