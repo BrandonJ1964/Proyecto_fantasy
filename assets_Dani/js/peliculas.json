@@ -1,7 +1,7 @@
 {
   "peliculas": {
     "mas_vistas": [
-      { "titulo": "Gladiator", "imagen": "../../images/brandon/peliculas/gladiator.webp" },
+      { "titulo": "Gladiator", "imagen": "../../images/brandon/peliculas/gladiator.webp", "trailer": "https://www.youtube.com/embed/P5ieIbInFpg", "descripcion": "Gladiator (2000), dirigida por Ridley Scott, sigue a Máximo, un general romano que se convierte en gladiador tras ser traicionado por el emperador Cómodo. Busca venganza mientras lucha por su libertad.", "anio": "2000", "genero": "Épico, Acción, Drama", "duracion" : "155 minutos" },
       { "titulo": "Vaca", "imagen": "../../images/brandon/peliculas/vaca.webp" },
       { "titulo": "Orgullo y prejuicio", "imagen": "../../images/brandon/peliculas/orgullo_y_prejuicio.webp" },
       { "titulo": "La red social", "imagen": "../../images/brandon/peliculas/la_red_social.webp" },
