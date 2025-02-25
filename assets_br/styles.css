@@ -173,7 +173,6 @@ h2 {
   color: #333;
   margin-bottom: 10px;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 @media (max-width: 768px) {
