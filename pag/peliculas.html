@@ -23,18 +23,22 @@
   </header>
 
   <section>
-    <div>
-      <h1>Peliculas</h1>
+    <div class="container mt-5">
+      <h1 class="text-start mb-4">Películas</h1>
       <form action="">
-        <select name="" class="selectCategorias">
-          <option value="">Buscar por categoría:</option>
-          <option value="">Todas</option>
-          <option value="">Drama</option>
-          <option value="">Acción</option>
-          <option value="">Clásicos</option>
-          <option value="">Comedia</option>
-          <option value="">Familia</option>
-        </select>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <select id="categoria-select" class="form-select form-select-lg custom-select">
+              <option value="" disabled selected>Selecciona una categoría</option>
+              <option value="todas">Todas</option>
+              <option value="drama">Drama</option>
+              <option value="accion">Acción</option>
+              <option value="clasicos">Clásicos</option>
+              <option value="comedia">Comedia</option>
+              <option value="familia">Familia</option>
+            </select>
+          </div>
+        </div>
       </form>
     </div>
 
@@ -42,7 +46,7 @@
     <section class="peliculas-section container mt-5">
       <h2 class="text-center mb-4">Más vistas</h2>
       <div id="masVistasCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" id="masVistas-carousel-content"></div>   
+        <div class="carousel-inner" id="masVistas-carousel-content"></div>
       </div>
     </section>
 
@@ -102,13 +106,61 @@
       </div>
     </section>
 
+
+    <!-- Modal para ver el tráiler -->
+    <div class="modal fade" id="trailerModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Tráiler</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body text-center">
+            <iframe id="trailer-iframe" width="100%" height="400" src="" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay para mostrar los detalles de la película -->
+    <div class="movie-details" id="movieDetails">
+      <span class="close-btn" id="closeDetails">&times;</span>
+      <div class="movie-content">
+        <img class="movie-image" id="detailImage" src="" alt="Imagen de la película">
+        <div class="movie-info">
+          <h2 id="detailTitle">Título de la Película</h2>
+          <p id="detailDesc">Descripción de la película...</p>
+          <p id="detailYear">Año: </p>
+          <p id="detailGenre">Género: </p>
+          <p id="detailTime">Duración: </p>
+          <button class="btn-trailer" id="btnVerTrailer">
+            Ver tráiler <i class="fa-solid fa-play"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </section>
 
   <footer class="mt-5">
     <!-- Contenido del pie de página -->
     <div id="footer-container"></div>
-  
-      <script src="footer/footer.js"></script>
+
+    <script src="footer/footer.js"></script>
   </footer>
 
   <script src="../assets_Dani/js/script.js"></script>

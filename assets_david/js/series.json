@@ -1,7 +1,7 @@
 {
     "series": {
       "mas_vistas": [
-        { "titulo": "Shetland", "imagen": "../../images/brandon/series/shetland.webp" },
+        { "titulo": "Shetland", "imagen": "../../images/brandon/series/shetland.webp", "trailer": "https://www.youtube.com/embed/IWHelCrYpHA", "descripcion": "Shetland es una serie británica que sigue al detective Jimmy Pérez en las islas Shetland, donde investiga crímenes en una comunidad aislada. Combina misterio con la cultura local.", "anio": "2022", "genero": "Acción, Rural, Drama", "duracion": "58 min/ep" },
         { "titulo": "Todas las criaturas", "imagen": "../../images/brandon/series/todas_las_criaturas.webp" },
         { "titulo": "Luz de luna", "imagen": "../../images/brandon/series/luz_de_luna.webp" },
         { "titulo": "Herrhausen", "imagen": "../../images/brandon/series/herrhausen.webp" },
@@ -71,7 +71,7 @@
         { "titulo": "Laif", "imagen": "../../images/brandon/series/laif.webp" }
       ],
       "hechos_reales": [
-        { "titulo": "Inundación", "imagen": "../../images/brandon/series/shetland.webp" },
+        { "titulo": "Inundación", "imagen": "../../images/brandon/series/inundacion.webp" },
         { "titulo": "Año del descubrimiento", "imagen": "../../images/brandon/series/año_descubrimiento.webp" },
         { "titulo": "Archie", "imagen": "../../images/brandon/series/archie.webp" },
         { "titulo": "Enológica", "imagen": "../../images/brandon/series/enologica.webp" },
